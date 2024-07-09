@@ -1,0 +1,23 @@
+{
+  "name": "@turbo-demo/http-client",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf dist",
+    "gen-docs": "typedoc src/**/*.ts",
+    "build": "pnpm clean && tsup"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@rspack/cli": "^0.7.5",
+    "@rspack/core": "^0.7.5",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "tsup": "^8.1.0",
+    "typedoc": "^0.26.3",
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  }
+}
